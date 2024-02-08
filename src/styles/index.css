@@ -1,12 +1,43 @@
+.btn-el{
+    border: 1px solid white;
+    color:white
+}
 
-/* 
+.nav-el{   
+    flex-grow: 0 !important;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.btn-el:active{
+    outline-color:white !important;
+}
+.btn-el:focus{
+    outline-color:white !important;
+}
 
-*/
+.icon-el{
+    color:white !important;
+}
+
+.card{
+    width:300px;
+    max-width: 400px;
+    min-height: 350px;
+}
+
+.card img{
+    width:100%;
+    height: 150px;
+    object-fit:cover;
+}
+
+
+@media screen and (min-width:768px){
+    footer {
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        color: white;
+      }
+}
