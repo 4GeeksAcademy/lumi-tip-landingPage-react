@@ -63,7 +63,7 @@ const Card = (props) => {
 
 const Footer = () => {
 	return (
-		<footer className="bg-dark d-flex justify-content-center align-items-center">
+		<footer className="bg-dark d-flex justify-content-center align-items-center mt-4">
 			<p className="text-white p-4">Copyright LuMi</p>
 		</footer>
 	)
